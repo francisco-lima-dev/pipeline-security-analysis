@@ -1,0 +1,32 @@
+# Lista de repositórios (não versionada — crie localmente antes de rodar)
+repos.txt
+
+# Resultados gerados em runtime pelo pipeline (ignora conteúdo, mantém estrutura)
+**/results_json/*
+**/results_sarif/*
+**/treated_results/*
+!**/.gitkeep
+
+# Banco de dados CodeQL (removido pelo script, mas por segurança)
+**/codeql_db/
+
+# Credenciais e variáveis de ambiente
+.env
+*.env
+.env.*
+
+# Repositório clonado acidentalmente (bug conhecido do Semgrep)
+Data-Structures-in-Real-life-Projects/
+Data-Structures-in-Real-Life-Projects/
+
+# Arquivos de desenvolvimento interno
+CLAUDE.md
+prompts.xml
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
