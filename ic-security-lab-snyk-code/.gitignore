@@ -1,3 +1,4 @@
-results_sarif/
-results_json/
-treated_results/
+results_sarif/*
+results_json/*
+treated_results/*
+!.gitkeep
